@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add Book</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
@@ -13,7 +13,7 @@
         <div class="form-container">
             <h2>Book Info</h2>
             
-            <form action="process_book.php" method="POST" enctype="multipart/form-data">
+            <form action="your_action_page.php" method="POST" enctype="multipart/form-data">
                 <div class="form-grid">
                     <div class="form-group">
                         <label for="bookName">Book Name<span class="required">*</span></label>
@@ -44,7 +44,7 @@
                     <div class="form-group">
                         <label for="isbn">ISBN Number<span class="required">*</span></label>
                         <input type="text" id="isbn" name="isbn" required>
-                        <small>An ISBN is an International Standard Book Number.ISBN Must be unique</small>
+                        <small>An ISBN is an International Standard Book Number. ISBN Must be unique</small>
                     </div>
 
                     <div class="form-group">
